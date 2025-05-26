@@ -41,3 +41,43 @@ h1 {
   color: #828271;
   font-size: 1.2em;
 }
+
+/* RESPONSIVIDADE BRABA */
+@media (max-width: 920px) {
+  #principal {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .img-campanha {
+    width: 100%;
+    height: auto;
+  }
+
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  a {
+    display: inline-block;
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
